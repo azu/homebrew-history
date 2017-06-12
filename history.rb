@@ -25,7 +25,7 @@ class History < Formula
       system 'make', 'build'
       bin.install 'build/history'
     else
-      bin.install 'history'
+      bin.install 'darwin_amd64_history' 'history'
     end
   end
 
