@@ -4,10 +4,10 @@ class History < Formula
 
   if Hardware::CPU.is_64_bit?
     url 'https://github.com/b4b4r07/history/releases/download/0.0.1/history-0.0.1-darwin-amd64.tar.gz'
-    sha256 'b8b72b91978df3f1b2f5177ad8ce0194ab096c5d9c7acdfd4c26fcd25ab1ca47'
+    sha256 '44ea00da57e3dca91f348c44ff28f7822ae6eb74902a6c973e7dbf46829bf138'
   else
     url 'https://github.com/b4b4r07/history/releases/download/0.0.1/history-0.0.1-darwin-386.tar.gz'
-    sha256 '9a71555b8288164469dcdcde4260ff4c247d885f695e44a6b068e9005653cd9d'
+    sha256 'acd20dc56b4e58192405dc32e8bc7bacf4f52d4fef23d4e468ef24fb8df7164a'
   end
 
   head do
